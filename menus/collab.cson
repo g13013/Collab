@@ -1,0 +1,21 @@
+'menu': [
+  {
+    'label': 'Collab'
+    'submenu': [
+      {
+        'label': 'Server',
+        'submenu': [
+            { 'label': 'Start Server', 'command': 'collab:server' },
+            { 'label': 'Stop Server', 'command': 'collab:server-stop' }
+          ]
+      },
+      {
+        'label': 'Client',
+        'submenu': [
+            { 'label': 'Connect', 'command': 'collab:connect' },
+            { 'label': 'Disconnect', 'command': 'collab:disconnect' }
+          ]
+      }
+    ]
+  }
+]
