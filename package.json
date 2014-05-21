@@ -1,0 +1,15 @@
+{
+  "author": "Drew Carlson <andrew@pluto.tv>",
+  "name": "collab",
+  "description": "Write code with friends in real time.",
+  "version": "0.0.1",
+  "main": "./lib/collab",
+  "activationEvents": [
+    "collab:connect",
+    "collab:server"
+  ],
+  "dependencies": {
+    "socket.io": "^0.9.16",
+    "socket.io-client": "^0.9.16"
+  }
+}
