@@ -12,8 +12,10 @@
   },
   "main": "./lib/collab",
   "activationEvents": [
-    "collab:connect",
-    "collab:server"
+    "collab:client-connect",
+    "collab:client-disconnect",
+    "collab:server-start",
+    "collab:server-stop"
   ],
   "dependencies": {
     "socket.io": "^0.9.16",
